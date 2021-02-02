@@ -26,7 +26,7 @@
     <nav class="navbar is-info">
       <div class="navbar-brand">
         <%= link_to root_path, class: 'navbar-item' do %>
-          <h1 class= 'title-is-5'>Twitter</h1>
+          <h1 class= 'title is-5'>Twitter</h1>
         <%end%>
       </div>
       <div class="navbar-burger burger" data-target = 'navbarExample'>
@@ -42,6 +42,9 @@
             </p>
             <p class="control">
                <%= link_to 'Sign Up ', new_user_registration_path, class: 'sign-up navbar-item' %>
+            </p>
+            <p class="control">
+               <%= link_to 'Sign out ', destroy_user_session_path, method: :delete, class: 'sign-up navbar-item' %>
             </p>
           </div>
         </div>

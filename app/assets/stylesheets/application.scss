@@ -19,8 +19,13 @@
 @import "font-awesome";
 @import "bulma";
 .navbar-brand,
-.title {
+.title,
+a.sign-up {
   color: white;
+}
+
+h2.title.is-2 {
+  color: black;
 }
 .image {
   border-radius: 50%;
@@ -35,8 +40,4 @@
 
 div.field.is-grouped {
   margin: auto 12px;
-}
-
-a.sign-up {
-  color: white;
 }
