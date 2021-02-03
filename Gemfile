@@ -10,7 +10,7 @@ gem 'simple_form', '~> 5.0', '>= 5.0.3'
 gem 'gravatar_image_tag', '~> 1.2'
 
 gem 'devise', '~> 4.7', '>= 4.7.3'
-gem "font-awesome-rails"
+gem 'font-awesome-rails'
 
 gem 'rubocop', '~>0.81.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

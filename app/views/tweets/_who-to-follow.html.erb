@@ -6,7 +6,13 @@
       <article class="media">
         <div class="media-left">
           <figure class ='image is-32x32'>
-              <img src="https://bulma.io/images/placeholders/64x64.png">
+                  
+          <% if user_signed_in? %>
+            <%= gravatar_image_tag(current_user.email, size: 64, atl: current_user.name ) %>
+          <% else %>
+            <img src="https://bulma.io/images/placeholders/64x64.png">
+          <% end %>
+          
           </figure>
         </div>
         <div class="media-content">
@@ -22,7 +28,13 @@
       <article class="media">
         <div class="media-left">
           <figure class ='image is-32x32'>
-              <img src="https://bulma.io/images/placeholders/64x64.png">
+                  
+          <% if user_signed_in? %>
+            <%= gravatar_image_tag(current_user.email, size: 64, atl: current_user.name ) %>
+          <% else %>
+            <img src="https://bulma.io/images/placeholders/64x64.png">
+          <% end %>
+          
           </figure>
         </div>
         <div class="media-content">
@@ -38,7 +50,13 @@
       <article class="media">
         <div class="media-left">
           <figure class ='image is-32x32'>
-              <img src="https://bulma.io/images/placeholders/64x64.png">
+                  
+          <% if user_signed_in? %>
+            <%= gravatar_image_tag(current_user.email, size: 64, atl: current_user.name ) %>
+          <% else %>
+            <img src="https://bulma.io/images/placeholders/64x64.png">
+          <% end %>
+          
           </figure>
         </div>
         <div class="media-content">
