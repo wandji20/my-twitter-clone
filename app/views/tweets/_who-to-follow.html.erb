@@ -1,0 +1,73 @@
+<div class="column">
+  <nav class="panel">
+      <p class="panel-heading">Who to Follow</p>
+    
+    <div class="panel-block">
+      <article class="media">
+        <div class="media-left">
+          <figure class ='image is-32x32'>
+                  
+          <% if user_signed_in? %>
+            <%= gravatar_image_tag(current_user.email, size: 64, atl: current_user.name ) %>
+          <% else %>
+            <img src="https://bulma.io/images/placeholders/64x64.png">
+          <% end %>
+          
+          </figure>
+        </div>
+        <div class="media-content">
+          <p>
+            <strong>John Smith</strong>
+            <small>@johnsmilth</small>
+          </p>
+        </div>
+      </article>
+    </div>
+
+    <div class="panel-block">
+      <article class="media">
+        <div class="media-left">
+          <figure class ='image is-32x32'>
+                  
+          <% if user_signed_in? %>
+            <%= gravatar_image_tag(current_user.email, size: 64, atl: current_user.name ) %>
+          <% else %>
+            <img src="https://bulma.io/images/placeholders/64x64.png">
+          <% end %>
+          
+          </figure>
+        </div>
+        <div class="media-content">
+          <p>
+            <strong>Mary Jane</strong>
+            <small>@maryjane</small>
+          </p>
+        </div>
+      </article>
+    </div>
+
+    <div class="panel-block">
+      <article class="media">
+        <div class="media-left">
+          <figure class ='image is-32x32'>
+                  
+          <% if user_signed_in? %>
+            <%= gravatar_image_tag(current_user.email, size: 64, atl: current_user.name ) %>
+          <% else %>
+            <img src="https://bulma.io/images/placeholders/64x64.png">
+          <% end %>
+          
+          </figure>
+        </div>
+        <div class="media-content">
+          <p>
+            <strong>Samuel Abraham</strong>
+            <small>@samuelabraham</small>
+          </p>
+        </div>
+      </article>
+    </div>
+  </nav>
+  
+
+</div>
